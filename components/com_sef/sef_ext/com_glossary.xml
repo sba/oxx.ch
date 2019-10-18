@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="sef_ext">
+	<name>Glossary</name>
+	<author>ARTIO s.r.o.</author>
+	<creationDate>6. May 2008</creationDate>
+	<copyright>ARTIO s.r.o.</copyright>
+	<license>Copyrighted - http://www.artio.net/joomsef/licence-ext</license>
+	<authorEmail>info@artio.net</authorEmail>
+	<authorUrl>www.artio.net</authorUrl>
+	<version>2.0.0</version>
+	<description>Adds SEO support for Glossary component.</description>
+	<files>
+		<filename sef_ext="sobi2">com_glossary.php</filename>
+	</files>
+	<params>
+ 		<param name="ignoreSource" type="radio" default="2" label="Ignore multiple sources:" description="You can choose to override the default behaviour of this option.">
+ 			<option value="2">Use global config</option>
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+ 		<param name="itemid" type="radio" default="0" label="Itemid handling:" description="You can choose to override the default behaviour with your own Itemid.">
+ 			<option value="0">Use global config</option>
+ 			<option value="1">Override</option>
+ 		</param>
+ 		<param name="overrideId" type="text" default="" label="Override Itemid:" description="Itemid to always use with this component. Leave blank to use the default one."></param>
+ 		<param name="letter" type="radio" default="0" label="Add letter to term links:" description="If set to Yes, letter will be added to URL before term name.">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+ 	</params>
+</install>

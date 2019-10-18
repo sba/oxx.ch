@@ -1,0 +1,33 @@
+body {
+    text-align: right;
+    background: none;
+}
+
+
+#content_left, #content_right, #navigation, #footer {
+    display: none;
+}
+
+#header {
+    height: 152px;
+    margin-left: 0;
+}
+
+#background_top {
+    background: none;
+}
+
+#content_container {
+    background: none;
+}
+
+/*
+#logo {
+    background: url(../images/logo_02_print.png);
+    background-repeat: no-repeat;
+}
+
+#img_logo {
+    display: none;
+}
+*/

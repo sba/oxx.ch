@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Monoslideshow configuration file
+	Please visit http://www.monoslideshow.com for more info
+
+
+
+		showThumbnailsButton = "false"
+		showControls = "false"
+		showImageInfo = "never"
+		markFile = ""
+
+
+-->
+
+<slideshow>
+	
+	<!--
+	<preferences
+		showAlbumsButton = "false"
+		kenBurnsMode = "random"
+	/>
+	-->
+	
+	<preferences
+
+		showAlbumsButton = "false"
+		showImageInfo = "ifAvailable"
+		imageScaleMode = "noScale"
+		imageTransition = "rightToLeftBlend"
+		imageInfoRoundedCorners = "0"
+		imageInfoAlign = "bottomCenter"
+		imageInfoMarginX = "0"
+		imageInfoMarginY = "0"
+		imageInfoTransitionTime = "0"
+		thumbnailWindowIconRollOverColor = "F59600"
+		albumWindowRows = "6"
+		albumWindowColumns = "7"
+		albumWindowAutoSize = "false"
+		albumWindowIconRollOverColor = "F59600"
+		albumSpacing = "2"
+		controlAlign = "topRight"
+		controlAutoHide = "true"
+		controlShowOnStartDelay = "2"
+		controlLineColor = "F59600"
+		controlIconRollOverColor = "F59600"
+		controlDelay = "1"
+		markFile = ""
+		markAlign = "bottomLeft"
+
+	/>
+	
+	<album thumbnail="album/albumThumbnail.jpg" title="Galerie" description="text text text" imagePath="images" thumbnailPath="thumbnails">
+		
+		<img src="petzicup.jpg" title="Gaswerk Winterthur gewinnt den Petzi Cup 08" description="30.08.2008"/>
+		<img src="photo01.jpg"/>
+		<img src="photo03.jpg"/>
+		<img src="photo04.jpg"/>
+		<img src="photo05.jpg"/>
+		<img src="photo06.jpg"/>
+		<img src="photo07.jpg"/>
+		<img src="photo11.jpg"/>
+		<img src="photo12.jpg"/>
+		<img src="photo13.jpg"/>
+		<img src="photo15.jpg"/>
+		<img src="photo17.jpg"/>
+		<img src="photo18.jpg"/>
+		<img src="photo19.jpg"/>
+		<img src="photo20.jpg"/>
+		<img src="photo21.jpg"/>
+		<img src="photo22.jpg"/>
+		<img src="photo23.jpg"/>
+		<img src="photo24.jpg"/>
+		<img src="photo25.jpg"/>
+		<img src="photo26.jpg"/>
+		<img src="photo28.jpg"/>
+		<img src="photo29.jpg"/>
+		<img src="photo32.jpg"/>
+		<img src="photo33.jpg"/>
+		<img src="photo34.jpg"/>
+		<img src="photo35.jpg"/>
+		<img src="photo36.jpg"/>
+		<img src="photo38.jpg"/>
+		<img src="photo39.jpg"/>
+		<img src="photo43.jpg"/>
+		<img src="photo47.jpg"/>
+		<img src="photo51.jpg"/>
+		<img src="photo52.jpg"/>
+		<img src="photo55.jpg"/>
+		<img src="photo56.jpg"/>
+		<img src="photo58.jpg"/>
+		<img src="photo60.jpg"/>
+		<img src="photo62.jpg"/>
+		<img src="photo63.jpg"/>
+		<img src="photo64.jpg"/>
+		<img src="photo65.jpg"/>
+		<img src="photo67.jpg"/>
+		<img src="photo68.jpg"/>
+		<img src="photo69.jpg"/>
+		<img src="photo71.jpg"/>
+		<img src="photo72.jpg"/>
+		<img src="photo73.jpg"/>
+		<img src="photo74.jpg"/>
+		<img src="photo75.jpg"/>
+		<img src="photo77.jpg"/>
+		<img src="photo78.jpg"/>
+	</album>
+	
+</slideshow>

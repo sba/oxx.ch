@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="module">
+    <name>Communicator Subscribe</name>
+    <creationDate>10 Juni 2008</creationDate>
+    <author>Granholmcms.com</author>
+    <copyright>This module is released under the GNU/GPL License</copyright>
+    <authorEmail>stefangranholm@gmail.com</authorEmail>
+    <authorUrl>http://www.granholmcms.com</authorUrl>
+	<version>1.7</version>
+    <description>This module displays a simple HTML form to your users so they can subscribe to your newsletter (requires the Communicator component).</description>
+    <files>
+         <filename module="mod_communicatorsubscribe">mod_communicatorsubscribe.php</filename>
+    </files>
+	<languages folder="language">
+		<language tag="ar-EG">ar-EG.mod_communicatorsubscribe.ini</language>
+		<language tag="da-DK">da-DK.mod_communicatorsubscribe.ini</language>
+		<language tag="en-GB">en-GB.mod_communicatorsubscribe.ini</language>
+		<language tag="fr-FR">fr-FR.mod_communicatorsubscribe.ini</language>
+		<language tag="nb-NO">nb-NO.mod_communicatorsubscribe.ini</language>
+		<language tag="pl-PL">pl-PL.mod_communicatorsubscribe.ini</language>
+	</languages>
+	<params>
+		<param name="position" type="radio" default="0" label="Position" description="Choose the layout to be horizontal or vertical.">
+			<option value="0">Vertical</option>
+			<option value="1">Horizontal</option>
+		</param>
+		
+		<param name="show_pretext" type="radio" default="0" label="Show the pre-text?" description="Set whether or not to show a pre-text." >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="pretext" type="textarea" cols="20" rows="10" default="" label="The Text -before- the Subscribe Form" description="Just some Text the will be shown -before- the Subscribe Form" />
+        
+		<param name="chars_limit" type="radio" default="0" label="Limit number of Characters for -Name- Field?" description="Limits the Number of Charcaters for the -Name- Field to the Number that can be specified below." >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+        
+		<param name="chars" type="text" default="15" label="Number of chars for Character Limit." description="Used when the Character limit is enabled. The value specifies the number of characters that may used for the -Name- Field." />
+        
+		<param name="hide_name_field" type="radio" default="0" label="Hide the -Name- Field?" description="When enabled, Users must fill in a name with their subscription.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="class_sfx" type="text" default="" label="Menu Class Suffix" description="A suffix to be applied to the css class of the menu items" />
+	</params>
+</install>

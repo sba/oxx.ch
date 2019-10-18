@@ -1,0 +1,50 @@
+/**
+ * Changelog for Communicator
+ * @author GranholmCMS
+ * @link http://www.granholmcms.com
+ */
+
+Version 1.7.3
+* Fixed Danish language not UTF-8
+/ Changed icons
+* Fixed numerous display issues with the front-end
+/ Updated front-end language file
+* Fixed CSV import
+/ Updated footer class
+
+Version 1.7.2
+* Updated Hungarian 
+* Fixed the extra items that show up in Communicator once the user submits his name and email
+* Fixed backend link
+
+Version 1.7.1
+* Fixed some missing translations
++ Added Parameter translation strings
+/ Updated English language file
+/ Updated installer
+
+Version 1.7
+/ Updated Hungarian translation
++ Added menu translation
+* Fixed English language file
++ Added Egyptian
+* Fixed Danish language file
+
+
+Version 1.6
+/ Changed all language files to 1.5 mode
++ Added option to delete all non-confirmed subscribers
+* Changed Granholm Hosting to Granholm CMS
+/ Updated XML installer file
+/ Moved content to site and admin sections
+
+Version 1.5
+* Fixed the Compose newsletter not working
+* Fixed URLs using local path instead of URL
+* Fixed CSS styling front-end
+* Fixed tooltips not showing on configuration page
+/ Changed front-end notification from text to Joomla notification bar
++ Added missing language tags
+
+Version 1.0
++ Initial conversion from Joomla 1.0.x to Joomla 1.5.x

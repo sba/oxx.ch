@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="OX Programm Presse Layout">
+		<message>
+			OX Programm Presse Layout
+		</message>
+	</layout>
+	<state>
+		<name>OX Programm Presse Layout</name>
+		<description>OX Programm Presse Layout</description>
+		<url>
+			<param name="id" type="category" label="Category" description="Choose a category..." />
+		</url>
+		<params>
+
+			<param name="num_leading_articles" type="text" size="3" default="999" label="Num Leading" description="PARAMLEADING" />
+			<param name="only_preview" type="radio" default="0" label="Nur aktuelle Events" description="Ja bei Vorschau und aktuellem Programm, Nein bei Archiv">
+				<option value="1">Ja - Vorschau</option>
+				<option value="0">Nein - Alle der Kategorie (Jahr) anzeigen</option>
+			</param>
+			
+		</params>
+		<advanced>
+			<param name="orderby_pri" type="list" default="" label="Category Order" description="Order items by category">
+				<option value="">No, order by Primary Order only</option>
+			</param>
+			<param name="orderby_sec" type="list" default="eventdate" label="Primary Order" description="Order that the items will be displayed in.">
+				<option value="eventdate">Anlass Datum aufsteigend</option>
+			</param>
+
+			<param name="show_feed_link" type="radio" default="1" label="Show a feed link" description="PARAMSHOWFEEDLINK">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+		</advanced>
+	</state>
+</metadata>

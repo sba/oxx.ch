@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+  <install type="module"  version="1.5.0">
+	<name>OX Front-Events</name>
+	<author>Stefan Bauer</author>
+	<creationDate>September 2008</creationDate>
+	<copyright>(C) 2008 Stefan Bauer All rights reserved.</copyright>  
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>sbauer@oxx.ch</authorEmail>
+	<authorUrl>http://www.oxx.ch</authorUrl>
+	<version>0.0.1</version>
+	<description>
+	<![CDATA[Zeigt OX Anlaesse auf der Hompage]]>	</description>
+	<files>
+		<filename module="mod_frontevents">mod_frontevents.php</filename>
+	</files>
+	<params>
+		<param name="events_full" type="text" default="4" label="Anzahl Events mit Bild" />
+		<param name="events_link" type="text" default="4" label="Anzahl Events als Einzeiler" />
+		<param name="section_id" type="text" default="" label="ID der Programm Section" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

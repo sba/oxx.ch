@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:media="http://search.yahoo.com/mrss" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <atom:icon>http://www.phoca.cz/images/phoca-piclens.png</atom:icon>
+        <item>
+            <title>p1010019</title>
+            <link>/images/phocagallery/2009/2009-06-27_Petzi_Cup_Ebullition/thumbs/phoca_thumb_l_p1010019.jpg</link>
+            <media:thumbnail url="/images/phocagallery/2009/2009-06-27_Petzi_Cup_Ebullition/thumbs/phoca_thumb_l_p1010019.jpg" />
+            <media:content url="/images/phocagallery/2009/2009-06-27_Petzi_Cup_Ebullition/p1010019.jpg" />
+            <guid isPermaLink="false">184-phocagallerypiclenscode-2009/2009-06-27_Petzi_Cup_Ebullition/p1010019.jpg</guid>
+        </item>
+    </channel>
+</rss>

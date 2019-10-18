@@ -1,0 +1,28 @@
+img, div {
+	behavior: url(http://www.oxx.ch/templates/ox/iepngfix.htc);
+}
+
+#maincontent {
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+
+
+.box_content {
+	margin: -5px 0 0 0;
+}
+
+#maincontent {
+	margin: -5px 0 0 0;
+}
+
+#event_blog {
+	padding: 10px 0 0 10px ;
+}
+
+.box_content.subnav li a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}

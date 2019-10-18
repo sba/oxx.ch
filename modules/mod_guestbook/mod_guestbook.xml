@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install method="upgrade" type="module" version="1.5.0">
+    <name>Guestbook Modul</name>
+    <author>Stefan Bauer</author>
+    <version>0.0.1</version>
+	<creationDate>August 2008</creationDate>
+    <description>Gibt den letzten GB-Eintrag aus</description>
+    <files>
+        <filename module="mod_guestbook">mod_guestbook.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <params>
+    </params>
+</install>

@@ -1,0 +1,40 @@
+@import url(styles.css);
+
+body {
+	background-color: black;
+}
+
+/*Box*/
+.box_container {
+	width: 203px;
+	padding: 0;
+	margin: 0;
+}
+	
+.box_top {
+	padding: 0;
+	margin: 0;
+	height: 9px;
+	background: url(../images/box_top.gif);
+	background-repeat: no-repeat;
+}
+	
+.box_content {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	margin: 0;
+	text-align: left;
+	background: url(../images/box_background.gif);
+	background-repeat: repeat-y;
+}
+
+.box_bottom {
+	padding: 0;
+	margin: 0;
+	height: 9px;
+	background: url(../images/box_bottom.gif);
+	background-repeat: no-repeat;
+}
+	

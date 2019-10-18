@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>ox</name>
+	<creationDate>17/08/08</creationDate>
+	<author>Lukas Geissmann</author>
+	<authorEmail>web@mediasprint.ch</authorEmail>
+
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>OX Template</description>
+
+
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+
+	<positions> 
+		<position>left</position> 
+		<position>right</position> 
+		<position>sponsors</position>
+    <position>content_top</position>
+		<position>subnav_programm</position>
+		<position>subnav_verein</position>
+		<position>subnav_galerie</position>
+		<position>subnav_kontakt</position>
+  	<position>subnav_user</position>
+  </positions>
+
+</install>

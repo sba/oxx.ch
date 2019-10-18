@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<install method="upgrade" type="module" version="1.5.0">
+
+    <name>Sponsoren</name>
+
+    <author>Lukas Geissmann</author>
+
+    <version>0.0.1</version>
+
+	<creationDate>August 2008</creationDate>
+
+    <description>Spnonsoren Logos</description>
+
+    <files>
+
+        <filename module="mod_sponsoren">mod_sponsoren.php</filename>
+       
+    </files>
+
+</install>

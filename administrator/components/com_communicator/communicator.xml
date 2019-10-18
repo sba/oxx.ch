@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+  <name>Communicator</name>
+  <creationDate>07 July 2008</creationDate>
+  <author>Granholm CMS</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>stefangranholm@gmail.com</authorEmail>
+  <authorUrl>http://www.granholmcms.com</authorUrl>
+  <version>1.7.3.5</version>
+    <description>Create HTML newsletters to send to your website users.</description>
+	
+	<!-- Install Database Section -->
+	<install folder="admin">
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>communicator.php</filename>
+        <filename>communicator.class.php</filename>
+        <filename>communicator.html.php</filename>
+	</files>
+	
+	<!-- Site Main Language File Copy Section -->
+	<languages folder="site/language">
+			<language tag="ar-EG">ar-EG.com_communicator.ini</language>
+			<language tag="bg-BG">bg-BG.com_communicator.ini</language>
+			<language tag="da-DK">da-DK.com_communicator.ini</language>
+			<language tag="da-DK">da-DK.com_communicator.menu.ini</language>
+			<language tag="el-GR">el-GR.com_communicator.ini</language>
+			<language tag="en-GB">en-GB.com_communicator.ini</language>
+			<language tag="en-GB">en-GB.com_communicator.menu.ini</language>
+			<language tag="es-ES">es-ES.com_communicator.ini</language>
+			<language tag="es-ES">es-ES.com_communicator2.ini</language>
+			<language tag="fr-FR">fr-FR.com_communicator.ini</language>
+			<language tag="de-DE">es-ES.com_communicator.ini</language>
+			<language tag="ge-GE">ge-GE.com_communicator.ini</language>
+			<language tag="ge-GE">ge-GE.com_communicator_informal.ini</language>
+			<language tag="hu-HU">hu-HU.com_communicator.ini</language>
+			<language tag="hu-HU">hu-HU.com_communicator.menu.ini</language>
+			<language tag="is-IS">is-IS.com_communicator.ini</language>
+			<language tag="it-IT">it-IT.com_communicator.ini</language>
+			<language tag="nl-NL">nl-NL.com_communicator.ini</language>
+			<language tag="nb-NO">nb-NO.com_communicator.ini</language>
+			<language tag="pt-BR">pt-BR.com_communicator.ini</language>
+			<language tag="pt-PT">pt-PT.com_communicator.ini</language>
+			<language tag="rs-RS">rs-RS.com_communicator.ini</language>
+	</languages>
+	
+	<!-- Site Main Media File Copy Section -->
+	<media folder="site/images" destination="com_communicator/images">
+		<filename>delete.png</filename>
+		<filename>mail_send.png</filename>
+		<filename>subscribe.png</filename>
+		<filename>unsubscribe.png</filename>
+		<filename>user.png</filename>
+		<filename>user_f2.png</filename>
+		<filename>validate.gif</filename>
+		<filename>validate_f2.gif</filename>
+	</media>
+	
+    <administration>
+	
+		<!-- Administration Menu Section -->
+		<menu>Communicator</menu>
+		<submenu>
+			<menu img="content.png" task="newsletter">Newsletter Management</menu>
+			<menu img="user.png" task="subscribers">Subscriber Management</menu>
+			<menu img="config.png" task="config">Configuration</menu>
+		</submenu>
+		
+		<!-- Administration Main File Copy Section -->
+		<files folder="admin">
+			<filename>admin.communicator.php</filename>
+			<filename>admin.communicator.html.php</filename>
+			<filename>CHANGELOG.txt</filename>
+			<filename>communicator.css</filename>
+			<filename>communicator.js</filename>
+			<filename>communicator.png</filename>
+			<filename>install.mysql.utf8.sql</filename>
+			<filename>LICENSE.txt</filename>
+			<filename>README.txt</filename>
+			<filename>toolbar.communicator.php</filename>
+			<filename>toolbar.communicator.html.php</filename>
+			<filename>includes/contentRenderer.class.php</filename>
+			<filename>includes/email_validation.php</filename>
+			<filename>includes/sef.php</filename>
+        </files>
+		
+		<!-- Administration Language File Copy Section -->
+	   <languages folder="admin/language"> 
+			<language tag="ar-EG">ar-EG.com_communicator.ini</language>
+			<language tag="bg-BG">bg-BG.com_communicator.ini</language>
+			<language tag="da-DK">da-DK.com_communicator.ini</language>
+			<language tag="da-DK">da-DK.com_communicator.menu.ini</language>
+			<language tag="el-GR">el-GR.com_communicator.ini</language>
+			<language tag="en-GB">en-GB.com_communicator.ini</language>
+			<language tag="en-GB">en-GB.com_communicator.menu.ini</language>
+			<language tag="es-ES">es-ES.com_communicator.ini</language>
+			<language tag="es-ES">es-ES.com_communicator2.ini</language>
+			<language tag="fr-FR">fr-FR.com_communicator.ini</language>
+			<language tag="de-DE">es-ES.com_communicator.ini</language>
+			<language tag="ge-GE">ge-GE.com_communicator.ini</language>
+			<language tag="ge-GE">ge-GE.com_communicator_informal.ini</language>
+			<language tag="hu-HU">hu-HU.com_communicator.ini</language>
+			<language tag="hu-HU">hu-HU.com_communicator.menu.ini</language>
+			<language tag="is-IS">is-IS.com_communicator.ini</language>
+			<language tag="it-IT">it-IT.com_communicator.ini</language>
+			<language tag="nl-NL">nl-NL.com_communicator.ini</language>
+			<language tag="nb-NO">nb-NO.com_communicator.ini</language>
+			<language tag="pt-BR">pt-BR.com_communicator.ini</language>
+			<language tag="pt-PT">pt-PT.com_communicator.ini</language>
+			<language tag="rs-RS">rs-RS.com_communicator.ini</language>
+	   </languages>
+    </administration>
+	<params>
+      <param name="extended_email_validation" type="radio" default="1" label="Extended email address validation?" description="Only for non-windows systems. Checks if the domain in the email address is a valid mail exchange server and ready to receive mail.">
+         <option value="0">No</option>
+         <option value="1">Yes</option>
+      </param>
+      <param name="embed_images" type="radio" default="1" label="Embed images into the email?" description="Here you can decide wether local images shall be included into the mail message or not. The message will have a bigger size, but its recipients will definitely see the embedded images, while remote images are often blocked by mail clients." >
+         <option value="0">No</option>
+         <option value="1">Yes</option>
+      </param>
+      <param name="personalized_mails_per_pageload" type="text" default="100" label="Number of personalizable mails to send per step?" description="This number defines the default amount of mails per step for those mails that contain the &lt;strong&gt;[NAME]&lt;/strong&gt; tag." />
+      <param name="normal_mails_per_pageload" type="text" default="500" label="Number of mails to send per step?" description="This number defines the default amount of mails per step for those mails that do &lt;strong&gt;NOT&lt;/strong&gt; contain the &lt;strong&gt;[NAME]&lt;/strong&gt; tag." />
+      <param name="attachment_dir" type="text" default="/media" label="File attachment directory" description="The directory in your site holding files you want to use as attachments for mails." />
+      <param name="newsletter_css" type="textarea" cols="50" rows="20" default="" label="The CSS styles which are used to style the HTML newsletter." />
+   </params>
+</install>

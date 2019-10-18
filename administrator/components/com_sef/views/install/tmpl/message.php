@@ -1,0 +1,41 @@
+<?php
+/**
+ * SEF component for Joomla! 1.5
+ *
+ * @author      ARTIO s.r.o.
+ * @copyright   ARTIO s.r.o., http://www.artio.cz
+ * @package     JoomSEF
+ * @version     3.1.0
+ */
+ 
+// Check to ensure this file is included in Joomla!
+defined('_JEXEC') or die('Restricted access');
+
+$state      = &$this->get('State');
+$result     = $state->get('result');
+$name       = $state->get('name');
+$message    = $state->get('message');
+?>
+
+<?php if( $result ) { ?>
+		<table class="adminheading">
+		<tr>
+			<th class="install">
+			<?php echo $name; ?>
+			</th>
+		</tr>
+		</table>
+
+		<table class="adminform">
+		<tr>
+			<td align="left">
+			<strong><?php echo $message; ?></strong>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+			[&nbsp;<a href="index.php?option=com_sef&task=installext" style="font-size: 16px; font-weight: bold">Continue ...</a>&nbsp;]
+			</td>
+		</tr>
+		</table>
+<?php } ?>

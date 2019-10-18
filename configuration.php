@@ -1,0 +1,54 @@
+<?php
+class JConfig {
+	var $offline = '0';
+	var $editor = 'jce';
+	var $list_limit = '100';
+	var $helpurl = 'http://help.joomla.org';
+	var $debug = '0';
+	var $debug_lang = '0';
+	var $sef = '1';
+	var $sef_rewrite = '1';
+	var $sef_suffix = '1';
+	var $feed_limit = '10';
+	var $secret = 'rc80qAAVpxKovZYg';
+	var $gzip = '0';
+	var $error_reporting = '-1';
+	var $xmlrpc_server = '0';
+	var $log_path = '/web-data/oxx.ch/logs';
+	var $tmp_path = '/web-data/oxx.ch/tmp';
+	var $live_site = 'http://www.oxx.ch';
+	var $offset = '2';
+	var $caching = '0';
+	var $cachetime = '15';
+	var $cache_handler = 'file';
+	var $memcache_settings = array();
+	var $ftp_enable = '0';
+	var $ftp_host = '';
+	var $ftp_port = '21';
+	var $ftp_user = '';
+	var $ftp_pass = '';
+	var $ftp_root = '';
+	var $dbtype = 'mysql';
+	var $host = '';
+	var $user = '';
+	var $db = '';
+	var $dbprefix = 'jos_';
+	var $mailer = 'mail';
+	var $mailfrom = '';
+	var $fromname = 'OX. Kultur im Ochsen';
+	var $sendmail = '/usr/sbin/sendmail';
+	var $smtpauth = '0';
+	var $smtpuser = '';
+	var $smtppass = '';
+	var $smtphost = '';
+	var $MetaAuthor = '1';
+	var $MetaTitle = '1';
+	var $lifetime = '30';
+	var $session_handler = 'database';
+	var $password = '';
+	var $sitename = 'OX. Kultur im Ochsen';
+	var $MetaDesc = 'OX. Kultur im Ochsen - Kulturverein in Zofingen';
+	var $MetaKeys = 'OX, OXX, Ochsen, Zofingen, Kultur, Verein, Kulturverein, Dachgenossenschaft, Altstadt, Musik, Live, Fussball, Theater, Lesung, Poetry-Slam, Metal, Death Metal, Rock, Pop, Konzerte, Film, Parties, Freizeit, Sound, Miete, Bar, Junge, Vergnügen, Spass, Movie, Action, Kommunikation, freundlich, gemütlich, aktuell';
+	var $offline_message = 'Diese Webseite ist im Wartungsmodus. Bitte kommen Sie später wieder.';
+}
+?>

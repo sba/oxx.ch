@@ -1,0 +1,174 @@
+body, html, table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #cdcdcd;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+strong, b {
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.contentheading, .componentheading, h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #f59600;
+	padding: 0;
+	margin: 0;
+}
+
+.iteminfo {
+	margin-top: 2px;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #f59600;
+	margin: 0;
+	padding-bottom: 8px;
+}
+
+.subtitle, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #f59600;
+	line-height: 2em;
+}
+
+h4 {
+	font-size: 8pt;
+	font-weight: bold;
+	color: #f59600;
+	margin: 0;
+	padding: 2px 0;
+}
+
+.box_content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #cdcdcd;
+	line-height: 1.3em;
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	font-variant: normal;
+	color: #f59600;
+}
+
+.box_content a, .box_content a:hover {
+	font-size: 7pt;
+}
+
+#page {
+	width: 473px;
+}
+
+#maincontent_header_left {
+	width: 373px;
+	float: left;
+}
+
+#maincontent_header_right {
+	width: 100px;
+	float: right;
+	text-align: right;
+}
+
+#maincontent_header_right a img, #maincontent div a img, .buttonheading img {
+	border: 0;
+}
+
+input, textarea, select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	background-color: #000000;
+	border: 1px dotted #6D6D6D;
+	color: #CDCDCD;
+}
+
+input:focus, textarea:focus, select:focus {
+	background-color: #000000;
+	border: 1px dotted #F59600;
+}
+
+.button, .button:focus {
+	background-color: #F59600;
+	color: #000;
+	padding: 1px 5px;
+	border: 0;
+	font-weight: bold;
+}
+
+.button:focus {
+	background-color: #fff;
+	color: #000;
+}
+
+.button_pfeil {
+	padding-left: 3px;
+	border: 0;
+	width: 12px;
+	height: 17px;
+	margin: 0;
+	float: right;
+}
+
+hr {
+	border: none 0;
+	border-top: 1px dotted #6d6d6d;
+	width: 100%;
+	height: 1px;
+}
+
+fieldset {
+	border: 1px dotted #6d6d6d;
+}
+
+#maincontent ul {
+	list-style-type: circle;
+	list-style-image: url(../images/list_button.gif);
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+	
+			
+#maincontent li {
+	padding-bottom: 2px;
+}
+
+.highlight {
+	font-weight: bold;
+	color: #F59600;
+}
+
+
+::-moz-selection {
+    background:#F59600;
+    color:#fff;
+    }
+     
+::selection {
+    background:#F59600;
+    color:#fff;
+}

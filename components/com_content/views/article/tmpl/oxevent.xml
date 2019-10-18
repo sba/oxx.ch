@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="OX Programm Beitrags-Layout">
+		<message>
+			Detailansicht eines Anlasses
+		</message>
+	</layout>
+	<state>
+		<name>OX Programm Beitrags-Layout</name>
+		<description>Detailansicht eines Anlasses</description>
+		<url addpath="/administrator/components/com_content/elements">
+			<param name="id" type="article" default="0" label="Select Article" description="An article" />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

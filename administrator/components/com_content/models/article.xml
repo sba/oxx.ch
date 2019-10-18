@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>Article Edit Form</name>
+	<params addpath="/administrator/components/com_content/elements">
+		<param name="created_by" type="author" default="" label="Author" description="DETAILAUTHOR" />
+		<param name="created_by_alias" type="text" size="20" default="" label="Author Alias" description="DETAILAUTHORALIAS" />
+		<param name="access" type="list" size="20" default="0" label="Access Level" description="DETAILACCESS">
+			<option value="0">Public</option>
+			<option value="1">Registered</option>
+			<option value="2">Special</option>
+		</param>
+		<param name="created" type="calendar" default="" label="Created Date" description="DETAILCREATED" />
+		<param name="publish_up" type="calendar" default="" label="Start Publishing" description="DETAILSTART" />
+		<param name="publish_down" type="calendar" default="" label="Finish Publishing" description="DETAILFINISH" />
+	</params>
+	<params group="advanced">
+		<param name="event_date" type="calendar" default="" label="Anlass-Datum" format="%Y-%m-%d"/>
+		<param name="event_date2" type="text" default="" label="Anlass-Datum 2" description="Zweites Datum bei mehrtagigen Events. Wird in derselben Schrift dargestellt wie das Anlass-Datum"/>
+		<param name="event_days" type="text" default="1" label="Anzahl Tage" description="Anlass-Dauer in Tagen"/>	
+		<param name="event_type" type="list" default="" label="Anlass-Typ" description="Typ des Anlasses - sofern bekannt oder passend">
+			<option value="">nicht definiert</option>
+			<option value="Konzert">Konzert</option>
+			<option value="Disco">Disco</option>
+			<option value="Bar">Barbetrieb</option>
+			<option value="Spiel">Spiel</option>
+			<option value="Film">Film</option>
+			<option value="Fussball">Fussball</option>
+			<option value="Lesung">Lesung</option>
+			<option value="Theater">Theater</option>
+			<option value="Politik">Politik</option>
+			<option value="Spezial">Spezial</option>
+			<option value="Fremdvermietung">Fremdvermietung</option>
+			<option value="Intern">Intern</option>
+		</param>
+		<!--
+		<param name="event_typespecial" type="text" default="" label="Spezial-Anlasstyp" description="Spezieller-Eventtype. z.B. Flohmi, OX on the Rocks ..." />	
+		-->
+		<param name="event_image" type="imagelist" directory="/images/programm" hide_none="1" label="Anriss-Bild" description="Bild auf der Startseite" />		
+		<param name="event_imagenewsletter" type="imagelist" directory="/images/newsletter" hide_none="1" label="Newsletter-Bild" description="Bild im Newsletter" />		
+		<param name="event_intro" type="text" default="" label="Pre-Titel" description="Live in concert: / OX at the Movies presents ..."/>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="event_doors" type="textarea" default="" label="Beginn / Eintrittspreise" rows="2" cols="22" description="Eitrittspreise / Tueroeffnung / Konzertbeginn / Filmstart usw."/>
+		<param name="event_petziid" type="text" default="" label="VVK-Petzi ID" description="Die id_evenement Nummer in der Petzi URL (Web-Adresse des Events)" />	
+		<param name="event_bandwww1" type="text" default="http://" label="Band Website 1" description="Website der Band - komplette URL. Trennem mit Komma fuer Link-Text (optional)" />	
+		<param name="event_bandwww2" type="text" default="http://" label="Band Website 2" description="Website der Band - komplette URL. Trennem mit Komma fuer Link-Text (optional)" />	
+		<param name="event_bandwww3" type="text" default="http://" label="Band Website 3" description="Website der Band - komplette URL. Trennem mit Komma fuer Link-Text (optional)" />	
+		<param name="event_bandwww4" type="text" default="http://" label="Band Website 4" description="Website der Band - komplette URL. Trennem mit Komma fuer Link-Text (optional)" />	
+		<param name="event_galleryid" type="text" default="" label="Galerie ID" description="Die id der Photo-Galerie (...id=XXX)" />		
+		<param name="@spacer" type="spacer" default="" label="" description="xx" />
+		<param name="event_events" type="textarea" default="" label="Statistik: Bands/Filme ..." rows="2" cols="22" description="Hall of Fame: Einzelne Events mit Komma trennen"/>
+		<param name="@spacer" type="spacer" default="" label="" description="xx" />
+		<!--
+		<param name="event_alien" type="radio" default="0" label="Fremdvermietung" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		-->
+		<param name="event_responsable" type="text" default="" label="Veranstalter(in)" description="Chef des Abends / Veranstaltung" />
+		<param name="event_dvd" type="text" default="" label="DvD" description="Depp vom Dienst" />
+		<param name="event_helpers" type="textarea" default="" label="Helfer / Bemerkungen" rows="5" cols="22" description="Wer mach was?"/>
+		<param name="@spacer" type="spacer" default="" label="" description="xx" />
+		<param name="event_visitor" type="text" default="" label="Anzahl Besucher" description="Totale Anzahl Besucher inkl. aller Gratiseintritte usw. Nur Ganzzahlen" />		
+		<param name="event_standard" type="text" default="" label="Gewinn Standard" description="Abrechnung Standardgewinn - negativ bei Verlust" />
+		<param name="event_detail" type="text" default="" label="Gewinn Detail" description="Abrechnung Detailgewinn - negativ bei Verlust" />
+		<!--
+		<param name="event_remarks" type="textarea" default="" label="Bemerkungen" rows="5" cols="22" description=""/>
+		
+		<param name="event_rating" type="list" default="" label="Wie wars?" description="Anlasse-Bewertung">
+			<option value=""></option>
+			<option value="kotzen">zum kotzen</option>
+			<option value="naja">naja</option>
+			<option value="gut">gut</option>
+			<option value="super">super</option>
+			<option value="genial">genial</option>
+		</param>
+		-->
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_title" type="list" default="" label="Show Title" description="Show/Hide the items title">
+			<option value="">Use Global</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<!--
+		<param name="link_titles" type="list" default="" label="Linked Titles" description="Make your Item titles linkable">
+			<option value="">Use Global</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		-->
+		<param name="show_intro" type="list" default="" label="Intro Text" description="Show/Hide the intro text">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<!--
+		<param name="show_section" type="list" default="" label="Section Name" description="PARAMSECTION">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="link_section" type="list" default="" label="Section Name Linkable" description="PARAMSECTIONLINK">
+			<option value="">Use Global</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_category" type="list" default="" label="Category Name" description="PARAMCATEG">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="link_category" type="list" default="" label="Category Name Linkable" description="PARAMCATEGLINK">
+			<option value="">Use Global</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_vote" type="list" default="" label="Item Rating" description="PARAMRATING">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		-->
+		<param name="show_author" type="list" default="" label="Author Names" description="PARAMAUTHOR">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_create_date" type="list" default="" label="Created Date and Time" description="PARAMCREATEDATE">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		
+		<param name="show_modify_date" type="list" default="" label="Modified Date and Time" description="PARAMMODIFYDATE">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<!--
+		<param name="show_pdf_icon" type="list" default="" label="PDF Icon" description="PARAMPDF">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		-->
+		<param name="show_print_icon" type="list" default="" label="Print Icon" description="PARAMPRINT">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<!--
+		<param name="show_email_icon" type="list" default="" label="Email Icon" description="PARAMEMAIL">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="language" type="languages" client="site" label="Content language" description="PARAMCONTENTLANGUAGE" />
+		<param name="keyref" type="text" size="25" default="" label="Key Reference" description="PARAMKEYREF" />
+		-->
+		<param name="readmore" type="text" size="25" default="" label="Alternative Read more text" description="PARAMALTREADMORE" />
+	</params>
+	<params group="metadata">
+		<param name="description" type="textarea" rows="5" cols="30" default="" label="Description" description="METADESC" />
+		<param name="keywords" type="textarea" rows="5" cols="30" default="" label="Keywords" description="METAKEYS" />
+		<param name="robots" type="text" size="20" default="" label="Robots" description="METAROBOTS" />
+		<param name="author" type="text" size="20" default="" label="Author" description="METAAUTHOR" />
+	</params>
+</form>

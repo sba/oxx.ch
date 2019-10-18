@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="sef_ext">
+	<name>Content</name>
+	<author>ARTIO s.r.o.</author>
+	<creationDate>6. May 2008</creationDate>
+	<copyright>ARTIO s.r.o.</copyright>
+	<license>Copyrighted - http://www.artio.net/joomsef/licence-ext</license>
+	<authorEmail>info@artio.net</authorEmail>
+	<authorUrl>www.artio.net</authorUrl>
+	<version>2.0.2</version>
+	<description>Adds SEO support for Content component.</description>
+	<files>
+		<filename sef_ext="content">com_content.php</filename>
+	</files>
+	<params>
+ 		<param name="ignoreSource" type="radio" default="2" label="Ignore multiple sources" description="You can choose to override the default behaviour of this option.">
+ 			<option value="2">Use global config</option>
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+ 		<param name="itemid" type="radio" default="0" label="Itemid handling" description="You can choose to override the default behaviour with your own Itemid.">
+ 			<option value="0">Use global config</option>
+ 			<option value="1">Override</option>
+ 		</param>
+ 		<param name="overrideId" type="text" default="" label="Override Itemid" description="Itemid to always use with this component. Leave blank to use the default one."></param>
+ 		<param name="pagination" type="radio" default="0" label="Handle pagination as non-SEF" description="If set to Yes, limit and limitstart variables will be appended to URL as non-SEF.">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+ 		<param name="guessId" type="radio" default="0" label="Guess Itemid" description="If set to Yes, the extension will try to guess the correct Itemid and replace the one given in URL.">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+ 		<param name="customNonSef" type="text" default="" label="Custom non-SEF variables" description="Here you can specify custom non-SEF variables separated by semicolon." />
+ 		<param name="compatibility" type="radio" default="0" label="Compatibility mode" description="Makes sure the &lt;em&gt;task&lt;/em&gt; variable is present in the URL. Helps some legacy components like mXcomment.">
+ 		  <option value="0">No</option>
+ 		  <option value="1">Yes</option>
+ 		</param>
+ 		<param name="googlenewsnum" type="list" default="0" label="Google News numbering" description="You can choose what number to use in article title for Google News.">
+ 		  <option value="0">Don't use</option>
+ 		  <option value="1">Use article ID</option>
+ 		  <option value="2">Use article date</option>
+ 		</param>
+ 		<param name="digits" type="text" default="3" label="Article ID digits" description="Minimum article ID digits count, Google News requires three. Necessary number of zeros will be prepended." />
+ 		<param name="dateformat" type="text" default="ddmm" label="Custom date format" description="Custom date format. You can use d, dd, m, mm, yy and yyyy in usual way." />
+ 		<param name="numberpos" type="list" default="1" label="Number position" description="You can choose if the number should be prepended or appended to article title.">
+ 		  <option value="0">Prepend</option>
+ 		  <option value="1">Append</option>
+ 		</param>
+ 	</params>
+</install>

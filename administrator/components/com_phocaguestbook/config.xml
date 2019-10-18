@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params addpath="/administrator/components/com_phocaguestbook/elements">
+	<param name="require_title" type="radio" default="1" label="Require Title" description="Require Title DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</param>
+	<param name="require_username" type="radio" default="1" label="Require Username" description="Require Username DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</param>
+	<param name="require_email" type="radio" default="0" label="Require Email" description="Require Email DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</param>
+	<param name="require_content" type="radio" default="1" label="Require Content" description="Require Content DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</param>
+			<param name="registered_users_only" type="radio" default="0" label="Registered Users Only" description="Registered Users Only DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="font_color" default="#000000" size="10" type="text" label="Font Color" description="Font Color DESC" />
+		<param name="second_font_color" default="#dddddd" size="10" type="text" label="Second Font Color" description="Second Font Color DESC" />
+		<param name="background_color" default="#C8DFF9" size="10" type="text" label="Background Color" description="Background Color DESC" />
+		<param name="border_color" default="#E6E6E6" size="10" type="text" label="Border Color" description="Border Color DESC" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="form_position" type="radio" default="0" label="Form Position" description="Form Position DESC">
+				<option value="0">Top</option>
+				<option value="1">Bottom</option>
+			</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="forbidden_word_filter" type="textarea" rows="5" cols="40" default="" label="Forbidden Word Filter" description="Forbidden Word Filter DESC" />
+		<param name="forbidden_whole_word_filter" type="textarea" rows="5" cols="40" default="" label="Forbidden Whole Word Filter" description="Forbidden Whole Word Filter DESC" />
+		<param name="ip_ban" type="textarea" rows="5" cols="40" default="" label="IP Ban" description="IP Ban DESC" />
+		<param name="max_char" default="2000" size="6" type="text" label="Maximum Characters" description="Maximum Characters DESC" />
+		<param name="max_url" default="5" size="6" type="text" label="Maximum URL" description="Maximum URL DESC" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="enable_captcha" type="radio" default="1" label="Enable Captcha" description="Enable Captcha DESC">
+				<option value="1">Standard Captcha</option>
+				<option value="2">Math Captcha</option>
+				<option value="3">Random (Standard or Math)</option>
+				<option value="0">No</option>
+		</param>
+		
+		<param name="standard_captcha_chars" type="textarea" rows="3" cols="40" default="1,2,3,4,5,6,7,8,9, a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z, A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" label="Standard Captcha Characters" description="Standard Captcha Characters DESC" />
+		<param name="math_captcha_chars" type="textarea" rows="3" cols="40" default="1,2,3,4,5,6,7,8,9, a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z, A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" label="Math Captcha Characters" description="Math Captcha Characters DESC" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="display_name" type="radio" default="1" label="Display Name Message" description="Display Name Message DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+		</param>
+		<param name="display_email" type="radio" default="1" label="Display Email Message" description="Display Email Message DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+		</param>
+		
+		<param name="display_name_form" type="radio" default="1" label="Display Name Form Message" description="Display Name Form Message DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+		</param>
+		<param name="display_email_form" type="radio" default="1" label="Display Email Form Message" description="Display Email Form Message DESC">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="username_or_name" type="radio" default="0" label="Username or Name" description="Username or Name DESC">
+				<option value="0">Username</option>
+				<option value="1">Name</option>
+		</param>
+		
+		<param name="review_item" type="radio" default="1" label="Review Item" description="Review Item DESC">
+				<option value="0">Yes</option>
+				<option value="1">No</option>
+		</param>
+		
+		<param name="send_mail" type="phocaguestbookemail" section="com_phocaguestbook" default="0" label="Send Email" description="Send Email DESC" />
+		
+	</params>
+</config>

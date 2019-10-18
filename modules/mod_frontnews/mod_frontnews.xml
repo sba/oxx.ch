@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install method="upgrade" type="module" version="1.5.0">
+	<name>Frontpage News</name>
+	<author>Stefan Bauer</author>
+	<version>0.0.1</version>
+	<creationDate>September 2008</creationDate>
+	<description>Zeigt Frontpage-Artikel im Modul an</description>
+	<files>
+		<filename module="mod_frontnews">mod_frontnews.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+	<params>
+		<param name="count" type="text" default="4" label="Anzahl Frontpage-News in Kasten" />
+		<param name="allowed_tags" type="text" default="&lt;i&gt;&lt;b&gt;&lt;strong&gt;" label="Erlaubte Html-Tags in Frontpage-Anriss" />
+		<param name="show_date" type="list" default="0" label="Publish-Up Datum anzeigen" >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</install>

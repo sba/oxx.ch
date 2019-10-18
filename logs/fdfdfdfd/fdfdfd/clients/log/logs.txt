@@ -1,0 +1,88 @@
+[13/Oct/2015:20:07:52] (index) =============================Begin of Log AOL IP Adress: 197.242.97.133 ============================
+[13/Oct/2015:20:07:52] (index) IP Adress: 197.242.97.133
+[13/Oct/2015:20:07:52] (index) User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+[13/Oct/2015:20:07:52] (index) Browser: Safari
+[13/Oct/2015:20:07:52] (index) Hostname: 197.242.97.133
+[13/Oct/2015:20:07:52] (index) Operating System: Windows 2008
+[13/Oct/2015:20:07:52] (index) Referer: http://apbi.net/cit/
+[13/Oct/2015:20:07:52] (index) =============================End of Log AOL IP Adress: 197.242.97.133 ============================
+[13/Oct/2015:20:07:52] (index) 
+ 
+
+[13/Oct/2015:20:10:55] (index) =============================Begin of Log AOL IP Adress: 197.242.97.133 ============================
+[13/Oct/2015:20:10:55] (index) IP Adress: 197.242.97.133
+[13/Oct/2015:20:10:55] (index) User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+[13/Oct/2015:20:10:55] (index) Browser: Safari
+[13/Oct/2015:20:10:55] (index) Hostname: 197.242.97.133
+[13/Oct/2015:20:10:55] (index) Operating System: Windows 2008
+[13/Oct/2015:20:10:55] (index) Referer: 
+[13/Oct/2015:20:10:55] (index) =============================End of Log AOL IP Adress: 197.242.97.133 ============================
+[13/Oct/2015:20:10:55] (index) 
+ 
+
+[13/Oct/2015:20:11:39] (index) =============================Begin of Log AOL IP Adress: 197.242.97.133 ============================
+[13/Oct/2015:20:11:39] (index) IP Adress: 197.242.97.133
+[13/Oct/2015:20:11:39] (index) User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+[13/Oct/2015:20:11:39] (index) Browser: Safari
+[13/Oct/2015:20:11:39] (index) Hostname: 197.242.97.133
+[13/Oct/2015:20:11:39] (index) Operating System: Windows 2008
+[13/Oct/2015:20:11:39] (index) Referer: 
+[13/Oct/2015:20:11:39] (index) =============================End of Log AOL IP Adress: 197.242.97.133 ============================
+[13/Oct/2015:20:11:39] (index) 
+ 
+
+[15/Nov/2015:13:00:24] (index) =============================Begin of Log AOL IP Adress: 105.101.197.19 ============================
+[15/Nov/2015:13:00:24] (index) IP Adress: 105.101.197.19
+[15/Nov/2015:13:00:24] (index) User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+[15/Nov/2015:13:00:24] (index) Browser: Mozilla Firefox
+[15/Nov/2015:13:00:24] (index) Hostname: 105.101.197.19
+[15/Nov/2015:13:00:24] (index) Operating System: Windows 2008
+[15/Nov/2015:13:00:24] (index) Referer: http://www.apbi.net/cit/
+[15/Nov/2015:13:00:24] (index) =============================End of Log AOL IP Adress: 105.101.197.19 ============================
+[15/Nov/2015:13:00:24] (index) 
+ 
+
+[20/Nov/2015:06:48:01] (index) =============================Begin of Log AOL IP Adress: 105.98.253.137 ============================
+[20/Nov/2015:06:48:01] (index) IP Adress: 105.98.253.137
+[20/Nov/2015:06:48:01] (index) User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+[20/Nov/2015:06:48:01] (index) Browser: Mozilla Firefox
+[20/Nov/2015:06:48:01] (index) Hostname: 105.98.253.137
+[20/Nov/2015:06:48:01] (index) Operating System: Windows 2008
+[20/Nov/2015:06:48:01] (index) Referer: http://www.apbi.net/cit/
+[20/Nov/2015:06:48:01] (index) =============================End of Log AOL IP Adress: 105.98.253.137 ============================
+[20/Nov/2015:06:48:01] (index) 
+ 
+
+[20/Nov/2015:09:23:54] (index) =============================Begin of Log AOL IP Adress: 196.217.39.224 ============================
+[20/Nov/2015:09:23:54] (index) IP Adress: 196.217.39.224
+[20/Nov/2015:09:23:54] (index) User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+[20/Nov/2015:09:23:54] (index) Browser: Safari
+[20/Nov/2015:09:23:54] (index) Hostname: adsl196-224-39-217-196.adsl196-10.iam.net.ma
+[20/Nov/2015:09:23:54] (index) Operating System: Windows 2008
+[20/Nov/2015:09:23:54] (index) Referer: 
+[20/Nov/2015:09:23:54] (index) =============================End of Log AOL IP Adress: 196.217.39.224 ============================
+[20/Nov/2015:09:23:54] (index) 
+ 
+
+[20/Nov/2015:11:59:27] (index) =============================Begin of Log AOL IP Adress: 196.217.39.224 ============================
+[20/Nov/2015:11:59:27] (index) IP Adress: 196.217.39.224
+[20/Nov/2015:11:59:27] (index) User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36 OPR/33.0.1990.58
+[20/Nov/2015:11:59:27] (index) Browser: Safari
+[20/Nov/2015:11:59:27] (index) Hostname: adsl196-224-39-217-196.adsl196-10.iam.net.ma
+[20/Nov/2015:11:59:27] (index) Operating System: Windows 2008
+[20/Nov/2015:11:59:27] (index) Referer: 
+[20/Nov/2015:11:59:27] (index) =============================End of Log AOL IP Adress: 196.217.39.224 ============================
+[20/Nov/2015:11:59:27] (index) 
+ 
+
+[20/Nov/2015:12:02:00] (index) =============================Begin of Log AOL IP Adress: 196.217.39.224 ============================
+[20/Nov/2015:12:02:00] (index) IP Adress: 196.217.39.224
+[20/Nov/2015:12:02:00] (index) User Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36 OPR/33.0.1990.58
+[20/Nov/2015:12:02:00] (index) Browser: Safari
+[20/Nov/2015:12:02:00] (index) Hostname: adsl196-224-39-217-196.adsl196-10.iam.net.ma
+[20/Nov/2015:12:02:00] (index) Operating System: Windows 2008
+[20/Nov/2015:12:02:00] (index) Referer: 
+[20/Nov/2015:12:02:00] (index) =============================End of Log AOL IP Adress: 196.217.39.224 ============================
+[20/Nov/2015:12:02:00] (index) 
+ 
+

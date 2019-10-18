@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="OX Hall of Fame Default View">
+		<message>
+			Hall of Fame
+		</message>
+	</layout>
+	<state>
+		<name>Hall of Fame Layout</name>
+		<description>List of Events</description>
+		<params>
+			<param name="eventtype" type="text" size="10" default="Konzert" label="Eventtype" description="Filter"/>
+            <param name="title" type="text" size="10" default="Konzert" label="Title" />
+        </params>
+	</state>
+</metadata>

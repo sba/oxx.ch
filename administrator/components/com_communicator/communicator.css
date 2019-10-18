@@ -1,0 +1,15 @@
+/* Toolbar Icons */
+.icon-32-user 		{ background-image: url(/media/com_communicator/images/user.png); }
+.icon-32-user_f2 		{ background-image: url(/media/com_communicator/images/user_f2.png); }
+.icon-32-validate_f2 		{ background-image: url(/media/com_communicator/images/validate_f2.gif); }
+
+#cmfooter {
+	font-size: x-small;
+	text-align: center;
+}
+
+.mail_send {
+	width: 22px;
+	height: 22px;
+	border: none;
+}

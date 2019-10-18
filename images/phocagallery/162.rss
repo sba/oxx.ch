@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:media="http://search.yahoo.com/mrss" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <atom:icon>http://www.oxx.ch/images/phocagallery/ox-piclens.png</atom:icon>
+        <item>
+            <title>2008-06-05 GV0526</title>
+            <link>/images/phocagallery/2008/2008-06-05 GV/thumbs/phoca_thumb_l_2008-06-05 GV0526.jpg</link>
+            <media:thumbnail url="/images/phocagallery/2008/2008-06-05 GV/thumbs/phoca_thumb_l_2008-06-05 GV0526.jpg" />
+            <media:content url="/images/phocagallery/2008/2008-06-05 GV/2008-06-05 GV0526.jpg" />
+            <guid isPermaLink="false">162-phocagallerypiclenscode-2008/2008-06-05 GV/2008-06-05 GV0526.jpg</guid>
+        </item>
+        <item>
+            <title>2008-06-05 GV0527</title>
+            <link>/images/phocagallery/2008/2008-06-05 GV/thumbs/phoca_thumb_l_2008-06-05 GV0527.jpg</link>
+            <media:thumbnail url="/images/phocagallery/2008/2008-06-05 GV/thumbs/phoca_thumb_l_2008-06-05 GV0527.jpg" />
+            <media:content url="/images/phocagallery/2008/2008-06-05 GV/2008-06-05 GV0527.jpg" />
+            <guid isPermaLink="false">162-phocagallerypiclenscode-2008/2008-06-05 GV/2008-06-05 GV0527.jpg</guid>
+        </item>
+    </channel>
+</rss>

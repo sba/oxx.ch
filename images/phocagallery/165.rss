@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:media="http://search.yahoo.com/mrss" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <atom:icon>http://www.oxx.ch/images/phocagallery/ox-piclens.png</atom:icon>
+        <item>
+            <title>i love rock&apos;n&apos;roll (four calimeros from hell)oxx band mix</title>
+            <link>/images/phocagallery/thumbs/phoca_thumb_l_youtube.jpg</link>
+            <media:thumbnail url="/images/phocagallery/thumbs/phoca_thumb_l_youtube.jpg" />
+            <media:content url="/images/phocagallery/youtube.jpg" />
+            <guid isPermaLink="false">165-phocagallerypiclenscode-youtube.jpg</guid>
+        </item>
+    </channel>
+</rss>
